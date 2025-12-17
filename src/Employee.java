@@ -15,7 +15,7 @@
         this.salary = salary;
     }
 
-    public void display(){
-        System.out.println("Name "+ name+" employeeID "+employeeID+" salary "+salary);
+    public void displayDetails(){
+        System.out.println("Employee Details: \n Name :"+ name+"\n employeeID :"+employeeID+" \n salary :"+salary);
     }
 }

@@ -6,7 +6,7 @@ public class Main {
         Employee developer = new Developer("Bob", 102, 60000.0, "Java");
 
 // Displaying information about each employee
-        manager.display();
-        developer.display();
+        manager.displayDetails();
+        developer.displayDetails();
         }
     }

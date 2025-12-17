@@ -13,7 +13,7 @@ String programmingLanguage;
         super(name, employeeID, salary);
         this.programmingLanguage = programmingLanguage;
     }
-    public void display(){
-        System.out.println("Name "+ name+" employeeID "+employeeID+" salary "+salary+" programingLanguage "+programmingLanguage);
+    public void displayDetails(){
+        System.out.println("Emploee Details :\n Name :"+ name+"\n employeeID :"+employeeID+"\n salary :"+salary+"\n programingLanguage :"+programmingLanguage);
     }
 }

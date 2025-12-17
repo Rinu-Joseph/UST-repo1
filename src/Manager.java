@@ -6,7 +6,7 @@ class Manager extends Employee {
         super(name, employeeID, salary);
         this.teamSize = teamSize;
     }
-    public void display(){
-        System.out.println("Name "+ name+" employeeID "+employeeID+" salary "+salary+" teamSize "+teamSize);
+    public void displayDetails(){
+        System.out.println("Employee Details :\n Name :"+ name+"\n employeeID :"+employeeID+"\n salary "+salary+"\n teamSize "+teamSize);
     }
 }
